@@ -1,0 +1,73 @@
+// Joydoc theme settings (light, dark, brand)
+export const themes = {
+  light: {
+  },
+  dark: {
+    fontFamily: 'Roboto Condensed, sans-serif',
+    fontColorPrimary: '#ffffff',
+    fontColorSecondary: '#ffffff',
+    primaryColor: '#0050f7',
+    secondaryColor: '#4e4e51',
+    dangerColor: '',
+    warningColor: '#ff0000',
+    backgroundColor: '#1E1E1F',
+    borderColor: '#5c5c5d',
+    borderRadius: 6,
+    field: {
+      titleFontSize: '',
+      titleFontColor: '#c9c9c9 ',
+      titleFontStyle: 'normal',
+      titleFontWeight: '',
+      titleTextAlign: '',
+      titleTextTransform: '',
+      titleTextDecoration: '',
+      fontSize: '',
+      fontColor: '#ffffff',
+      fontStyle: '',
+      fontWeight: '',
+      textAlign: '',
+      textTransform: '',
+      textDecoration: '',
+      textOverflow: '',
+      padding: '',
+      borderRadius: 10,
+      borderWidth: 2,
+      borderColor: '#5a5a5b',
+      backgroundColor: '#484849'
+    }
+  },
+  brand: {
+    fontFamily: 'Roboto Condensed, sans-serif',
+    fontColorPrimary: '#EC994B',
+    fontColorSecondary: '#808080',
+    primaryColor: '#0050f7',
+    secondaryColor: '#f2f2f2',
+    dangerColor: '',
+    warningColor: '',
+    backgroundColor: '',
+    borderColor: '',
+    borderRadius: 6,
+    field: {
+      titleFontSize: '1.2rem',
+      titleFontColor: '#4c4c4c',
+      titleFontStyle: 'normal',
+      titleFontWeight: 'bold',
+      titleTextAlign: '',
+      titleTextTransform: '',
+      titleTextDecoration: '',
+      fontSize: '',
+      fontColor: '#333333',
+      fontStyle: '',
+      fontWeight: '',
+      textAlign: '',
+      textTransform: '',
+      textDecoration: '',
+      textOverflow: '',
+      padding: '',
+      borderRadius: '',
+      borderWidth: '',
+      borderColor: '#BDC3C7',
+      backgroundColor: '#fff0e2'
+    }
+  }
+};
